@@ -70,6 +70,7 @@ class downloader(object):
 #		print(self.bigpic,"\n",len(self.bigpic))
 		print("2)load over")
 		for down in self.bigpic:
+			print(down,"\n")
 			self.nums+=1
 			try:
 				picture=requests.get(url=down,headers=self.headers)
